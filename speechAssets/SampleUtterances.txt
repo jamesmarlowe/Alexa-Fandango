@@ -1,0 +1,13 @@
+DialogFandangoIntent {Zipcode}
+
+OneshotTheaterIntent get theaters in {Zipcode}
+OneshotTheaterIntent what theaters are in {Zipcode}
+
+OneshotMovieIntent get movies in {Zipcode}
+OneshotMovieIntent what movies are playing in {Zipcode}
+
+SupportedZipcodesIntent who
+SupportedZipcodesIntent what
+SupportedZipcodesIntent when
+SupportedZipcodesIntent where
+SupportedZipcodesIntent why

@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "intent": "OneshotTheaterIntent",
+      "slots": [
+        {
+          "name": "Zipcode",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "DialogTheaterIntent",
+      "slots": [
+        {
+          "name": "Zipcode",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "OneshotMoviesIntent",
+      "slots": [
+        {
+          "name": "Zipcode",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "DialogMoviesIntent",
+      "slots": [
+        {
+          "name": "Zipcode",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "SupportedZipcodesIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
